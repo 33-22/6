@@ -26,13 +26,11 @@ display: flex;
 justify-content: center;
 }
 
-.body_dark {
-color: #fff;
-background: #000;
+.body_dark {color: #fff;
+background: #000000f2;
 }
 
-#main_body {
-top: 5%;
+#main_body {top: 5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -40,20 +38,21 @@ align-items: center;
 position: absolute;
 padding: 1.5%;
 max-width: 50%;
+min-width: 40vw;
 border-radius: 2vw;
 border: 0.2vw solid #000;
 box-shadow: 0 0 1vw 0.5vw #cccc;
 overflow: hidden;
 }
 
-.span_for_login_singup {
-margin: 0 0 !important;
+.span_for_login_singup {margin: 0 0 !important;
 padding: 0 0 !important;
 padding: 1% !important;
+padding-right: 6% !important;
 background: #000;
 border: 0.2vw solid #000;
-top: 5%;
-left: 22%;
+top: 0;
+left: 20%;
 width: fit-content;
 position: absolute;
 align-items: center;
@@ -61,6 +60,7 @@ justify-content: space-between;
 border: 0.2vw solid #000;
 box-shadow: 0 0 1vw 0.5vw #cccc;
 border-radius: 1vw;
+gap: 6%;
 }
 
 .span_for_login_singup span {
@@ -86,10 +86,10 @@ font-size: 2vw;
 font-weight: 900;
 }
 
-#span_settings_svg {
-float: right;
-font-size: 2.5vw;
-margin-right: 1%;
+#span_settings_svg {float: right;
+font-size: 2vw;
+margin-right: 0;
+margin-top: 0;
 font-weight: 900;
 border-radius: 1vw;
 box-shadow: 0 0 0.5vw 0.1vw #ccc;
@@ -101,9 +101,8 @@ opacity: 100%;
 transform: scale(110%);
 }
 
-.span_settings_mod {
-top: 17%;
-left: 2%;
+.span_settings_mod {top: 11%;
+left: 4%;
 position: absolute;
 display: flex;
 justify-content: space-between;
@@ -132,24 +131,21 @@ margin-left: 7%;
 width: fit-content;
 }
 
-.main_body #form_body div {
-width: 100%;
+.main_body #form_body div {width: 30vw;
 height: 100%;
 border: 0.2vw solid #000;
-border-radius: 1vw;
+border-radius: 1.5vw;
 box-shadow: 0 0 2vw 0.3vw #cccc;
 overflow: hidden;
 }
 
-.main_body #form_body h1 {
-border-bottom: 0.1vw solid #000;
-padding: 3%;
+.main_body #form_body h1 {border-bottom: 0.1vw solid #000;
+padding: 5%;
 font-weight: 900;
-font-style: italic;
 font-size: 2vw;
 font-family: Sans-Serif;
 text-align: center;
-background: #5f5ffc;
+background: #816aff;
 color: #fff;
 margin: 0 !important;
 margin-bottom: 5% !important;
@@ -225,7 +221,6 @@ margin: 0;
 .main_body #form_body #sing_up_span {
 width: 38% !important;
 cursor: pointer;
-/* text-align: center; */
 }
 
 .main_body #form_body #log_in_span,
@@ -251,8 +246,7 @@ box-shadow: 0 0 0.5vw 0.1vw #ccc;
 color: inherit !important;
 }
 
-.main_body #form_body form #sing_up {
-width: 100%;
+.main_body #form_body form #sing_up {width: 100%;
 text-transform: uppercase;
 font-style: italic;
 font-weight: 900;
@@ -261,7 +255,7 @@ font-family: Sans-Serif;
 text-align: center;
 padding-top: 2.5%;
 padding-bottom: 2.5%;
-background: #919ff7df;
+background: #e79797df;
 display: flex;
 justify-content: center;
 align-items: center;
