@@ -367,18 +367,7 @@ box-shadow: 0 0 2vw 0.1vw #fff;
 transform: scale(120%);
 }
 
-.main_body .bg_color_div_two {
-width: auto;
-padding: 0 1%;
-border: 0.2vw solid #ddd;
-background: #fff;
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-radius: 1vw;
-box-shadow: 0 0 2vw 0.2vw #cccc;
-position: relative;
-}
+.main_body .bg_color_div_two {width: auto;padding: 0 1%;border: 0.2vw solid #ddd;background: #fff;display: flex;justify-content: space-evenly;align-items: center;border-radius: 1vw;box-shadow: 0 0 2vw 0.2vw #cccc;position: relative;}
 
 .main_body .bg_color_div_two #to_do_input {
 font-weight: 900;
@@ -399,17 +388,7 @@ font-style: italic;
 font-size: 1.5vw;
 }
 
-.main_body .bg_color_div_two .button_add_task {
-padding: 1.5% 4%;
-border: 0.2vw solid #000;
-border-radius: 0.5vw;
-font-weight: 900;
-font-size: 1.6vw;
-background: #7e6cf3fe;
-color: #fff;
-font-style: italic;
-cursor: pointer;
-}
+.main_body .bg_color_div_two .button_add_task {padding: 1.5% 2%;border: 0.2vw solid #000;border-radius: 0.5vw;font-weight: 900;font-size: 1.6vw;background: #7e6cf3fe;color: #fff;font-style: italic;cursor: pointer;}
 
 .main_body .bg_color_div_two .button_add_notes {
 padding: 1.5% 4%;
@@ -428,22 +407,11 @@ border: 0.2vw solid #000;
 transform: scale(110%);
 }
 
-.main_body .div_all_tasks_and_search {
-padding: 1%;
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
+.main_body .div_all_tasks_and_search {padding: 1%;width: 100%;display: flex;justify-content: space-between;align-items: center;flex-direction: column;}
 
-.main_body .div_all_tasks_and_search .span_all_tasks {
-width: auto;
-gap: 2%;
-}
+.main_body .div_all_tasks_and_search .span_all_tasks {width: 100%;/* gap: 2%; */}
 
-.main_body .div_all_tasks_and_search .span_search {
-width: 28%;
-}
+.main_body .div_all_tasks_and_search .span_search {width: auto;}
 
 .main_body .div_all_tasks_and_search span {
 display: flex;
@@ -458,10 +426,7 @@ position: absolute;
 font-weight: 900;
 }
 
-.main_body .div_all_tasks_and_search .span_search {
-position: relative;
-border-radius: 1vw;
-}
+.main_body .div_all_tasks_and_search .span_search {position: relative;border-radius: 1vw;}
 
 .main_body .div_all_tasks_and_search .span_all_tasks span {
 text-align: center;
@@ -475,15 +440,7 @@ float: left;
 .main_body .div_all_tasks_and_search .span_all_tasks #span_all_active_task,
 .main_body .div_all_tasks_and_search .span_all_tasks #span_all_completed,
 .main_body .div_all_tasks_and_search .span_all_tasks #span_all_expired_task,
-.main_body .div_all_tasks_and_search .span_all_tasks #span_all_notes {
-padding: 3% 1.5%;
-margin: 1% 1%;
-background: #fff;
-border: 0.2vw solid #000;
-border-radius: 1vw;
-box-shadow: 0 0 0.5vw 0.2vw #cccc;
-cursor: pointer;
-}
+.main_body .div_all_tasks_and_search .span_all_tasks #span_all_notes {padding: 2% 1.5%;margin: 1% 1%;background: #fff;border: 0.2vw solid #000;border-radius: 1vw;box-shadow: 0 0 0.5vw 0.2vw #cccc;cursor: pointer;}
 
 .main_body .div_all_tasks_and_search .span_all_tasks #span_all_available_task:hover,
 .main_body .div_all_tasks_and_search .span_all_tasks #span_all_active_task:hover,
